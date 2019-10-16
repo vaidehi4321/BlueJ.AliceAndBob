@@ -16,7 +16,17 @@ public class AliceAndBobEngine
     //HINT: LOOK AT THE TESTS TO SEE WHAT IS EXPECTED FOR DIFFERENT CONDITIONS
     public String evaluateAliceOrBob(String input)
     {
-    
-        return result;
+         switch (input){
+             case"Alice":
+             return "Hello Alice";
+             case "Bob":
+             return "Hello Bob";
+             default:
+             return"I DON'T KNOW YOU, YOU ARE SCARY";
+             
+             }
+             
+             
+       
     }
 }
